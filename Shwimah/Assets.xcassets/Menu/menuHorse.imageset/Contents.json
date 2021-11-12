@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "horse-black-silhouette-in-elegant-jump-pngrepo-com.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "horse-black-silhouette-in-elegant-jump-pngrepo-com@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "horse-black-silhouette-in-elegant-jump-pngrepo-com@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

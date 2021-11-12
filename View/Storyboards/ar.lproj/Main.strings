@@ -1,0 +1,27 @@
+
+/* Class = "UIButton"; normalTitle = "عربي"; ObjectID = "RD2-ba-Jyc"; */
+"RD2-ba-Jyc.normalTitle" = "عربي";
+
+/* Class = "UIButton"; normalTitle = "English"; ObjectID = "Som-7A-xOT"; */
+"Som-7A-xOT.normalTitle" = "English";
+/* Class = "UIButton"; normalTitle = "Search"; ObjectID = "iXh-9q-ZvP"; */
+"iXh-9q-ZvP.normalTitle" = "بحث";
+
+/* Class = "UILabel"; text = "Date :"; ObjectID = "6p7-Xe-3ok"; */
+"6p7-Xe-3ok.text" = "التاريخ:";
+/* Class = "UILabel"; text = "Track :"; ObjectID = "lDf-bm-GMD"; */
+"lDf-bm-GMD.text" = "السباق:";
+/* Class = "UILabel"; text = "Category :"; ObjectID = "hc8-z3-z7a"; */
+"hc8-z3-z7a.text" = "النوع:";
+/* Class = "UILabel"; text = "Distance :"; ObjectID = "W7f-5A-tzy"; */
+"W7f-5A-tzy.text" = "المسافة:";
+
+/* Class = "UIButton"; normalTitle = "Search"; ObjectID = "82W-f0-6DH"; */
+"82W-f0-6DH.normalTitle" = "بحث";
+
+
+/* Class = "UILabel"; text = "Select Language"; ObjectID = "Uvd-dR-f1G"; */
+"Uvd-dR-f1G.text" = "اختر لغة";
+
+/* Class = "UIButton"; normalTitle = "عربي"; ObjectID = "ft5-7o-mMO"; */
+"ft5-7o-mMO.normalTitle" = "English";

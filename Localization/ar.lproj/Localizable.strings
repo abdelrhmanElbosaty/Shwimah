@@ -1,0 +1,42 @@
+/* 
+  Localizable.strings
+  Shwimah
+
+  Created by abdurhman elbosaty on 31/08/2021.
+  
+*/
+"lang" = "English";
+"selectLang" = "اختر لغة";
+"search" = "بحث";
+"Shwimah" = "شويمة";
+"News_Details" = "تفاصيل الخبر";
+"Search" = "تبحث عن ؟";
+"Next_Race" = "السباقات القادمة";
+"Last_Race" = "السباقات الماضية";
+"Races for .." = "سباقات فبراير";
+"Offers and Services" = "عروض وخدمات";
+"Race Details" = "تفاصيل السباق";
+
+"Racing horse offers" = "عروض خيل السباق" ;
+"Services and professions" = "خدمات ومهن";
+"Supplies and feed companies" = "مستلزمات الخيل والفروسية والآعلاف";
+"Horse supplies,\n Equestrian and fodder" = "مستلزمات وشركات الاعلاف";
+"Supplies and feed companies" = "مستلزمات وشركات الاعلاف";
+"Veterinary Care" = "رعاية بيطرية";
+
+"phone" = "الهاتف :";
+"hospital" = "المستشفي";
+
+"Main" = "الرئيسية";
+"Racing Calender" = "تقويم السباقات";
+
+"Racing news" = "اخبارالسباقات";
+
+"Stallions" = "افحل التشبيه";
+
+
+"Horse" = "حصان";
+"Jocky" = "فارس";
+"Breeder" = "المربي";
+"Trainer" = "مدرب";
+"Owner" = "مالك";

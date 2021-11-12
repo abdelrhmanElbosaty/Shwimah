@@ -1,0 +1,41 @@
+/* 
+  Localizable.strings
+  Shwimah
+
+  Created by abdurhman elbosaty on 31/08/2021.
+*/
+"lang" = "عربي";
+"selectLang" = "select language";
+"search" = "Search";
+"Shwimah" = "Shwimah";
+"News_Details" = "News Details";
+"Search" = "Search ?";
+"Next_Race" = "Next Race";
+"Last_Race" = "Last Race";
+"Races for .." = "Races for Feb";
+"Offers and Services" = "Offers and Services";
+"Race Details" = "Race Details";
+
+"Racing horse offers" = "Racing horse offers" ;
+"Services and professions" = "Services and professions";
+"Supplies and feed companies" = "Supplies and feed companies";
+"Horse supplies,\n Equestrian and fodder" = "Horse supplies,\n Equestrian and fodder";
+"Supplies and feed companies" = "Supplies and feed companies";
+"Veterinary Care" = "Veterinary Care";
+
+"phone" = "phone";
+"hospital" = "hospital";
+
+"Main" = "Main";
+"Racing Calender" = "Racing Calender";
+"Stallions" = "Stallions";
+"Racing news" = "Racing news";
+
+"Stallions" = "Stallions";
+
+
+"Horse" = "Horse";
+"Jocky" = "Jocky";
+"Breeder" = "Breeder";
+"Trainer" = "Trainer";
+"Owner" = "Owner";

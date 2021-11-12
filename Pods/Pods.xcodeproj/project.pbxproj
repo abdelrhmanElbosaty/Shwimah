@@ -1,0 +1,1625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03219B99BEEC9AB447188784DFDF4E19 /* UIImage+MaterialRTL.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E3556B20DAA2108A0927B4E9705B9C /* UIImage+MaterialRTL.m */; };
+		03D9715A0AE38B39348A1BDCC727484B /* CAMediaTimingFunction+MDCAnimationTiming.h in Headers */ = {isa = PBXBuildFile; fileRef = ED529D8CC72D8E3568CA2D55F3C715B0 /* CAMediaTimingFunction+MDCAnimationTiming.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		068CB12FF966ADC02C37760368EA509C /* MDCStatefulRippleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B6C87722767A0A293D62A09D7C2826 /* MDCStatefulRippleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		095D662A90C4024F809B8FC6EDC0563F /* MDCTabBarViewPrivateIndicatorContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E245A077F8122DFF12201825CFC538C /* MDCTabBarViewPrivateIndicatorContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0E0496A9A702544EF7F17753E366E88E /* MDCTabBarViewCustomViewable.h in Headers */ = {isa = PBXBuildFile; fileRef = F203B0EFA2E9B5A0DD3163F12D6C3BF5 /* MDCTabBarViewCustomViewable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1062EDD2C5C3B8D7A91592F639600D74 /* MDFInternationalization.h in Headers */ = {isa = PBXBuildFile; fileRef = D8C6C020046C7ED2F71553CEF8676BF6 /* MDFInternationalization.h */; };
+		11758CB999A008360C8E5FED8AAE71DB /* MDCTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = CED7A0B8E17E40B2D0F7734F94A5FCAA /* MDCTabBarView.m */; };
+		124EEAE22B8077371D55FDB1AC4F4D30 /* NSString+MaterialBidi.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF402716E1F8680CCDE1154994BAD46 /* NSString+MaterialBidi.m */; };
+		1889DB4BEA06824DA6705C2CB34BE39D /* MaterialComponents-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7412F1FC5A669D2D2CCF2ECF0525703F /* MaterialComponents-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AD30D98BB2B4CB1BCDFDD35709AD5CE /* MDCTabBarViewIndicatorAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = E286A2B4C8A091D833BBE210A6D43431 /* MDCTabBarViewIndicatorAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C17098A314695E72E08A821604FD854 /* MDCTabBarViewIndicatorAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 03400EEAB10C299D67819A00BA8528B0 /* MDCTabBarViewIndicatorAttributes.m */; };
+		1DCF9A800AE274F89C29078A6E212B7D /* MDFInternationalization-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23046BAE436C4EFE0C934C33A0270771 /* MDFInternationalization-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25ABCCB506CD51393434BE44F446AD5F /* MDFInternationalization-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9B1F114E80A6DC882F8514EFA10DC5 /* MDFInternationalization-dummy.m */; };
+		278194B768DE64A3351FB871BAA870F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		28CC21637771AD4B8DA5E2D6555B3ECA /* MDCTabBarViewIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A3056AD6389A2A685E5D3F7E2D69EC /* MDCTabBarViewIndicatorView.m */; };
+		3432328B6E144B5B1B7C795408D74C38 /* MDCTabBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 58FC0561510280232A7CF90AF41A7089 /* MDCTabBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3448720BBC5F115138759ED6CDB332BA /* MOLHFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C356E17D703D6DC81F6BD741B74EC0 /* MOLHFont.swift */; };
+		3448D373EA87D0490B970FDE9462A38F /* MDCMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 86FC8365DDDE92A1B7A3F9D6280238B2 /* MDCMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35535D47C0352B85D583640B21361228 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		362B4C9D2E384BA0CCF01CEE893583DB /* CHIPageControllable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92402C6E2D842DDEE6C8B27FE6D8FF91 /* CHIPageControllable.swift */; };
+		366A466625E7D975790AD25DE263A8BC /* MaterialMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 87D307CE5ABC0816EF9D34B874A0E3C3 /* MaterialMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3685F0E6ACFD9CE9F03513C9813D7C42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3A374D3B2566DFA42CF3034DE03F28B6 /* CHIBasePageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911430D7D3B934B309FE4C5416791860 /* CHIBasePageControl.swift */; };
+		3CE30BDD410305F4D3C8C13D12507A4A /* NSLocale+MaterialRTL.h in Headers */ = {isa = PBXBuildFile; fileRef = 5341CD18CE41B2B943AACC83332CFDAD /* NSLocale+MaterialRTL.h */; };
+		3DCCF761B72AB77C921C6347AD39D34E /* NSLocale+MaterialRTL.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 5341CD18CE41B2B943AACC83332CFDAD /* NSLocale+MaterialRTL.h */; };
+		475EB7B2BCF6CAE3F0AF2DAD399B0741 /* MDCTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF9A2C063A38839D00E43052E7E8D4B /* MDCTabBarItem.m */; };
+		4A49770135A58538DC6512B2A68FB637 /* MDCTabBarViewIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 46F30386B925EAE273355517EA9ECA1A /* MDCTabBarViewIndicatorView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4AEF864E97A54DBBB94CF76220FB4AEB /* MDCRippleView.h in Headers */ = {isa = PBXBuildFile; fileRef = FE2FA761142B541F63D14A32FB8AA075 /* MDCRippleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B8ED14558E4CF3453D458A237687BFD /* MDCTabBarViewIndicatorTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = CF11C62A6DD9EA7F0C7E8003A590AF32 /* MDCTabBarViewIndicatorTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C7EF49D9CFA12C18997F65AA48A29AA /* UIColor+MaterialBlending.m in Sources */ = {isa = PBXBuildFile; fileRef = 72CAC805FEA251BD9258B235EB46B9BA /* UIColor+MaterialBlending.m */; };
+		5101E6B4AB85FD52209AE55471651B46 /* CAMediaTimingFunction+MDCAnimationTiming.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CA164D62A534046E14DD431E0D5D01 /* CAMediaTimingFunction+MDCAnimationTiming.m */; };
+		546594038A39C1C5480919C5C51FFF46 /* NSString+MaterialBidi.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 5FA83145BD7E4F24B36B51D686E94E07 /* NSString+MaterialBidi.h */; };
+		5AC9B2A4C8928E492CE70831CA5D9448 /* MDCTabBarViewItemView.h in Headers */ = {isa = PBXBuildFile; fileRef = 09B3E888F2724804C3EB4BEBA7297BA3 /* MDCTabBarViewItemView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5B492E6A49B922C1A5363854795C3210 /* CHIPageControlChimayo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE565781EF2169E5D13AACF5B653FE29 /* CHIPageControlChimayo.swift */; };
+		5B7F285552FB71A7C0DF927805BA15B9 /* MDCRippleTouchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 155BFD74E8F09F9B508FB81B6FA2DF0B /* MDCRippleTouchController.m */; };
+		64317603918517CB58BC50355BBD14F8 /* MDFInternationalization.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = D8C6C020046C7ED2F71553CEF8676BF6 /* MDFInternationalization.h */; };
+		65FBF61FDC551D8437972D45A060D352 /* MDCRippleLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 332D25C6018B5C8062EED85D258E5700 /* MDCRippleLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6654DEB105ACD2D9A792B8CF058608C6 /* MDCTabBarViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E05B99ADD8CD618B37FE3D67D9F369 /* MDCTabBarViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66572A16E262848ACD58968F0B23CFF0 /* CHIPageControlPuya.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7C43E575D571372F17E34F8C23DD77 /* CHIPageControlPuya.swift */; };
+		68C81A493C4CD3F1D8425C3C12B6F1E3 /* MDFRTL.h in Headers */ = {isa = PBXBuildFile; fileRef = 848B394F4487A9163150311C32C8B2E4 /* MDFRTL.h */; };
+		6EF8DC888360A33005D5247A3E7A552D /* MaterialAvailability.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F805A6DE5B4C7E2DF47991083572EF /* MaterialAvailability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		718C11C321388B8E5665740A68765AC3 /* MDCTabBarViewItemViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B9BAA06B2DF53A5DD31E024B4437682B /* MDCTabBarViewItemViewDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7DB6497C9CC06CA922AC1152CE38CDAC /* MDFRTL.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 848B394F4487A9163150311C32C8B2E4 /* MDFRTL.h */; };
+		7F8E3F7786A52CEA20E0C10FBF3E756E /* MDCRippleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 77122D8AECE4C52730E62F9DE06C1BAD /* MDCRippleLayer.m */; };
+		81715F40B9BC8B2C0C4BBE7A78E29CEC /* MDCRippleLayerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BE79B05021A6FADB7BDD3C64F22CC85 /* MDCRippleLayerDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		82593D0EB2A2F1E8D829C1D5130FD9DD /* MOLH-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D88F387B4EA895C110FC4CD4F570FF97 /* MOLH-dummy.m */; };
+		8346DC954827FE9D5CA56A565D7F4166 /* UIColor+MaterialDynamic.h in Headers */ = {isa = PBXBuildFile; fileRef = E46EA0C2F91BB26C6A19A0026A50CCEC /* UIColor+MaterialDynamic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8377753FAC9D25D1408518FB055A63AD /* CHIPageControlJalapeno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2C99A9F0029D5FF3E23E01078E6034 /* CHIPageControlJalapeno.swift */; };
+		861E1F94198F369331016C313125381F /* MDCTabBarItemCustomViewing.h in Headers */ = {isa = PBXBuildFile; fileRef = C8F1AA80B414E238686AC06244F06FF2 /* MDCTabBarItemCustomViewing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		868838AC5C5332322F8A71D8B1EBCB68 /* MDCTabBarViewItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B83585431FA3B72857A52667F603B68 /* MDCTabBarViewItemView.m */; };
+		871685EEEB37778DF7927CF83EF92C18 /* MDCRippleTouchController.h in Headers */ = {isa = PBXBuildFile; fileRef = FB7D29C6F1C584E785417799ED5E35C1 /* MDCRippleTouchController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C050C985EF60CCC3B9E25050BE20F3E /* NSLocale+MaterialRTL.m in Sources */ = {isa = PBXBuildFile; fileRef = 59780E92BA8F9A8D7786D8229B96C577 /* NSLocale+MaterialRTL.m */; };
+		8E08A260ECE7CE2970B95E884A773802 /* MaterialRipple.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AF924CC1B19FA1E74C93C6CACAEC382 /* MaterialRipple.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EFABEE2E3BAE5BD9B93C1B58A69A178 /* UIView+MaterialRTL.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = C0FA7F19035BD812A6374397DF2D7AD6 /* UIView+MaterialRTL.h */; };
+		8F09BFD9A22CCD6564ED193C1564092A /* MaterialTabs+TabBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 902C9E69245F6CA4230C3F1CE367D3F5 /* MaterialTabs+TabBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95C17D4D5E64FA4D09FC8B2285BC0902 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		984167BC563C943B94B43A01DECBEAB0 /* UIView+MaterialRTL.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A4D8F8CE5E95014ADE3C0DB4518C70 /* UIView+MaterialRTL.m */; };
+		98C9E19339BC3AD82AB6292CC1E5EE24 /* MDCStatefulRippleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B27D7A3EF82BAEBEF4531D954FF42D6 /* MDCStatefulRippleView.m */; };
+		995640C083C428471A3CFE4DCF56818A /* MDCRippleTouchControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 317271D65E50F6B64A8F8AC36B9B2B23 /* MDCRippleTouchControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C3FDF4435916D2D8564448FE613A27D /* MOLHFontLocalizableViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D464BD33CAD957FCB5F5AB9430A3BEAD /* MOLHFontLocalizableViews.swift */; };
+		9CDE99BBBB2FDE012CFCCBDC5E296847 /* UIView+MDCTimingFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A9E32657003E883F4C11E3CCAAAE988 /* UIView+MDCTimingFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E652E98C8EBBA04C5F4DC5158EE8BF8 /* MOLHSizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C959AB8EAD9BA5E81FAFB237EA0985E1 /* MOLHSizable.swift */; };
+		9F64E84B54A721D525FB5FEB6B04AD92 /* NSString+MaterialBidi.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FA83145BD7E4F24B36B51D686E94E07 /* NSString+MaterialBidi.h */; };
+		A047E18BDE9F7AFE0B178ABB86FBF407 /* CHIPageControlAji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A71A6A12D85D57976C39ACC260F4678 /* CHIPageControlAji.swift */; };
+		A1F0957B5EE86E4D02E1D681460A20DF /* UIColor+MaterialDynamic.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEAE1474668B6C0B7726C85155DAE02 /* UIColor+MaterialDynamic.m */; };
+		A323AEFF51D4A980CC554EF3E84619F3 /* CHIPageControlPaprika.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701722E10855AA863EBE9696BF7B6FF4 /* CHIPageControlPaprika.swift */; };
+		B1EE4CA43E50B1849C4D18616263411D /* UIView+MDCTimingFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4D3492E6538A0A8A5D032E6B4D0728 /* UIView+MDCTimingFunction.m */; };
+		BE894AF07F00E09576321ACCF7C6EAE6 /* Pods-Shwimah-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EEC3669C0A21257D6936C1824D46F40 /* Pods-Shwimah-dummy.m */; };
+		BF7F9976FA80C821BC13E58E30E94B5B /* MDFRTL.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF55AA9E136A2A9E8AEEE02C072A1D1 /* MDFRTL.m */; };
+		C033F3E94355E90147C197D165E7DEE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C7F0C48049629F8DDF49863CC18DD080 /* CHIPageControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1239493853AFD9600B8A46E8701760B /* CHIPageControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C872E018E08E0FD0B30B386614AB0E43 /* UIImage+MaterialRTL.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 8FFB0A9103E2C1D550840587BA54728C /* UIImage+MaterialRTL.h */; };
+		C8DB2343F778EB7929D679D53B76ECB8 /* CHIPageControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7572EA89804E968594C1BE0F51B8F465 /* CHIPageControl-dummy.m */; };
+		CA43AE02267EC6A32F75A8BF4FA62691 /* CHIPageControlFresno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6D1D57D69358CE164AC2DA9B0A9A9D /* CHIPageControlFresno.swift */; };
+		CAC38FD5BCA8D1320068C60773305342 /* Pods-Shwimah-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9028E416B15C2620409585EBD9AB0777 /* Pods-Shwimah-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF5360E398A5C0C41ACD95F16EE0241A /* MDCRippleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D05096C91C26D603808552799476ED /* MDCRippleView.m */; };
+		CFBDAC713DF328B4B1FFEAD4365CD118 /* MaterialMathDummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2245F448E98BC1F006CF20B1DA7C7436 /* MaterialMathDummy.m */; };
+		D030071FC58D8A5A5AB5886F28DAA532 /* CHILayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A131F1D494241AB35CEE99BBEF56A7 /* CHILayer.swift */; };
+		D043F532B6D383FF72EAB95C880ACC7F /* MaterialColor.h in Headers */ = {isa = PBXBuildFile; fileRef = A49CE56211424B4A27F5A6AC76F72BDE /* MaterialColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D41D2EB9298F05872A03BEBC47D07092 /* MDCTabBarViewPrivateIndicatorContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7AE97811235534DCD8ACE12C7452B3 /* MDCTabBarViewPrivateIndicatorContext.m */; };
+		D6E80C1DDB6E76EC3E9D66DE958E14E2 /* CHIPageControlJaloro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B9327ADF5B29DC5ABF5A995A61095 /* CHIPageControlJaloro.swift */; };
+		D8052C068BE5968B2F03E729877EDA83 /* CHIPageControlAleppo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853E7A7A17057E987CF0B339E8A58861 /* CHIPageControlAleppo.swift */; };
+		D994A6BF016F89453703BB13D304B633 /* MDCRippleViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F069C82141907189D792128124426275 /* MDCRippleViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DECB3982B6D680B3E5631C713452DF6E /* MOLH.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991070703D64E154EDF6A7407A6C50DB /* MOLH.swift */; };
+		E26F984AC1C69A1D247DB67984B1A944 /* MDCTabBarViewUnderlineIndicatorTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9487296C3798D55496EF350C7DC55AE4 /* MDCTabBarViewUnderlineIndicatorTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E56C430EEEEAF6E39FF0942CCD78A061 /* UIView+MaterialRTL.h in Headers */ = {isa = PBXBuildFile; fileRef = C0FA7F19035BD812A6374397DF2D7AD6 /* UIView+MaterialRTL.h */; };
+		E5BA3D0D87E8AC589718A196616D48C0 /* MDCTabBarViewIndicatorContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 26FBCDF159CA174A8153C907E3564CA8 /* MDCTabBarViewIndicatorContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E87071407F25B1A1CF6E5CF01DBDFCA9 /* MaterialComponents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 195CD63F754B9225669903985B5D0820 /* MaterialComponents-dummy.m */; };
+		E8BDE8EF01218FF315EE4EE48CFDD9F4 /* MDCTabBarViewUnderlineIndicatorTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD6BABB367E63BB8C5FD4942148BDE5 /* MDCTabBarViewUnderlineIndicatorTemplate.m */; };
+		ECAB2A28223EA0DFB173FDAC6803ED7A /* MOLHLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F0B73A94DE46101CA8F8311CD7B97C /* MOLHLanguage.swift */; };
+		EEC6A740E9DABE5EDB738B8624882173 /* MaterialAnimationTiming.h in Headers */ = {isa = PBXBuildFile; fileRef = 51FC49972DBE3E5C791AE24FE4C24059 /* MaterialAnimationTiming.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF8049C4803CB325E89CF0C623C03F43 /* MDCAvailability.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C26F0A81DCC558E09B9CA15CBDC66DD /* MDCAvailability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F559FFACEE95333555D4C882685F5E77 /* MOLH-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F76B4E582FB58EBAAB488C1431FCAC6 /* MOLH-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F95134B340BDE8537CEDC91162AE776B /* UIImage+MaterialRTL.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FFB0A9103E2C1D550840587BA54728C /* UIImage+MaterialRTL.h */; };
+		FA846BB254F5077F7C8EA116E36A03FD /* UIColor+MaterialBlending.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B931E7761903243ABA8F2891E440F05 /* UIColor+MaterialBlending.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCBD6083FB15B76DFC70202D05E2071B /* MDCTabBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD1F81DECB99B82348CE4CF49B3E28E /* MDCTabBarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11C2B87A32FCF3EBE908EC33EAEF5063 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55A01F8E987A6E2F7F0ED141A1ECA406;
+			remoteInfo = MDFInternationalization;
+		};
+		1FB83D398C80824949E7CC9788387F1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4723B5744013DF08BE3A5FEAA286944;
+			remoteInfo = MaterialComponents;
+		};
+		72BE430922B5576136FC829CC6DBBDF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13E17D11090C69C55E1CC5C52E359A6A;
+			remoteInfo = MOLH;
+		};
+		984A66F1977B7B7E2D0F4D1C2AB0A9B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58A7AC722D45BA5EF49F00D98C86978B;
+			remoteInfo = CHIPageControl;
+		};
+		B35F8765F9603416B6A8117C55E721DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55A01F8E987A6E2F7F0ED141A1ECA406;
+			remoteInfo = MDFInternationalization;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		85B3B64C90CFC972449F93DC4A812BBD /* Copy . Public Headers */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(PUBLIC_HEADERS_FOLDER_PATH)/.";
+			dstSubfolderSpec = 16;
+			files = (
+				64317603918517CB58BC50355BBD14F8 /* MDFInternationalization.h in Copy . Public Headers */,
+				7DB6497C9CC06CA922AC1152CE38CDAC /* MDFRTL.h in Copy . Public Headers */,
+				3DCCF761B72AB77C921C6347AD39D34E /* NSLocale+MaterialRTL.h in Copy . Public Headers */,
+				546594038A39C1C5480919C5C51FFF46 /* NSString+MaterialBidi.h in Copy . Public Headers */,
+				C872E018E08E0FD0B30B386614AB0E43 /* UIImage+MaterialRTL.h in Copy . Public Headers */,
+				8EFABEE2E3BAE5BD9B93C1B58A69A178 /* UIView+MaterialRTL.h in Copy . Public Headers */,
+			);
+			name = "Copy . Public Headers";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		01A3056AD6389A2A685E5D3F7E2D69EC /* MDCTabBarViewIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTabBarViewIndicatorView.m; path = components/Tabs/src/TabBarView/private/MDCTabBarViewIndicatorView.m; sourceTree = "<group>"; };
+		03400EEAB10C299D67819A00BA8528B0 /* MDCTabBarViewIndicatorAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTabBarViewIndicatorAttributes.m; path = components/Tabs/src/TabBarView/MDCTabBarViewIndicatorAttributes.m; sourceTree = "<group>"; };
+		09B3E888F2724804C3EB4BEBA7297BA3 /* MDCTabBarViewItemView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTabBarViewItemView.h; path = components/Tabs/src/TabBarView/private/MDCTabBarViewItemView.h; sourceTree = "<group>"; };
+		0A5B9327ADF5B29DC5ABF5A995A61095 /* CHIPageControlJaloro.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlJaloro.swift; path = CHIPageControl/CHIPageControlJaloro.swift; sourceTree = "<group>"; };
+		0CD6A7C9181D49E5326B75CE379CB19C /* MDFInternationalization.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MDFInternationalization.release.xcconfig; sourceTree = "<group>"; };
+		0E4D3492E6538A0A8A5D032E6B4D0728 /* UIView+MDCTimingFunction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MDCTimingFunction.m"; path = "components/AnimationTiming/src/UIView+MDCTimingFunction.m"; sourceTree = "<group>"; };
+		155BFD74E8F09F9B508FB81B6FA2DF0B /* MDCRippleTouchController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCRippleTouchController.m; path = components/Ripple/src/MDCRippleTouchController.m; sourceTree = "<group>"; };
+		195CD63F754B9225669903985B5D0820 /* MaterialComponents-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MaterialComponents-dummy.m"; sourceTree = "<group>"; };
+		1C26F0A81DCC558E09B9CA15CBDC66DD /* MDCAvailability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCAvailability.h; path = components/Availability/src/MDCAvailability.h; sourceTree = "<group>"; };
+		2245F448E98BC1F006CF20B1DA7C7436 /* MaterialMathDummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MaterialMathDummy.m; path = components/private/Math/src/MaterialMathDummy.m; sourceTree = "<group>"; };
+		22B6C87722767A0A293D62A09D7C2826 /* MDCStatefulRippleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCStatefulRippleView.h; path = components/Ripple/src/MDCStatefulRippleView.h; sourceTree = "<group>"; };
+		23046BAE436C4EFE0C934C33A0270771 /* MDFInternationalization-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MDFInternationalization-umbrella.h"; sourceTree = "<group>"; };
+		26D05096C91C26D603808552799476ED /* MDCRippleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCRippleView.m; path = components/Ripple/src/MDCRippleView.m; sourceTree = "<group>"; };
+		26FBCDF159CA174A8153C907E3564CA8 /* MDCTabBarViewIndicatorContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTabBarViewIndicatorContext.h; path = components/Tabs/src/TabBarView/MDCTabBarViewIndicatorContext.h; sourceTree = "<group>"; };
+		2AF924CC1B19FA1E74C93C6CACAEC382 /* MaterialRipple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialRipple.h; path = components/Ripple/src/MaterialRipple.h; sourceTree = "<group>"; };
+		2EEC3669C0A21257D6936C1824D46F40 /* Pods-Shwimah-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Shwimah-dummy.m"; sourceTree = "<group>"; };
+		317271D65E50F6B64A8F8AC36B9B2B23 /* MDCRippleTouchControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCRippleTouchControllerDelegate.h; path = components/Ripple/src/MDCRippleTouchControllerDelegate.h; sourceTree = "<group>"; };
+		332D25C6018B5C8062EED85D258E5700 /* MDCRippleLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCRippleLayer.h; path = components/Ripple/src/private/MDCRippleLayer.h; sourceTree = "<group>"; };
+		33AE78493F996FE3C201FDEF77DCF578 /* CHIPageControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHIPageControl.debug.xcconfig; sourceTree = "<group>"; };
+		3567ABDB012B543472AB26FEED0F8C87 /* Pods-Shwimah */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Shwimah"; path = Pods_Shwimah.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35E3556B20DAA2108A0927B4E9705B9C /* UIImage+MaterialRTL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MaterialRTL.m"; path = "Sources/UIImage+MaterialRTL.m"; sourceTree = "<group>"; };
+		36CA164D62A534046E14DD431E0D5D01 /* CAMediaTimingFunction+MDCAnimationTiming.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CAMediaTimingFunction+MDCAnimationTiming.m"; path = "components/AnimationTiming/src/CAMediaTimingFunction+MDCAnimationTiming.m"; sourceTree = "<group>"; };
+		38A131F1D494241AB35CEE99BBEF56A7 /* CHILayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHILayer.swift; path = CHIPageControl/Core/CHILayer.swift; sourceTree = "<group>"; };
+		3C2C99A9F0029D5FF3E23E01078E6034 /* CHIPageControlJalapeno.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlJalapeno.swift; path = CHIPageControl/CHIPageControlJalapeno.swift; sourceTree = "<group>"; };
+		430F4A01304B08C66DFF3BC256FD7507 /* MOLH.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MOLH.release.xcconfig; sourceTree = "<group>"; };
+		46F30386B925EAE273355517EA9ECA1A /* MDCTabBarViewIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTabBarViewIndicatorView.h; path = components/Tabs/src/TabBarView/private/MDCTabBarViewIndicatorView.h; sourceTree = "<group>"; };
+		4865A9C010C49033B3703B4F3FC9AAE1 /* MOLH.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MOLH.debug.xcconfig; sourceTree = "<group>"; };
+		494305438DB5ED643BB69F201FBCA9CE /* MOLH.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MOLH.modulemap; sourceTree = "<group>"; };
+		4A90E991BC0CB35AB6D91E18C9490643 /* CHIPageControl */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CHIPageControl; path = CHIPageControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF06551114C8F577BB0BFBC84EBB318 /* Pods-Shwimah-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Shwimah-acknowledgements.plist"; sourceTree = "<group>"; };
+		51FC49972DBE3E5C791AE24FE4C24059 /* MaterialAnimationTiming.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialAnimationTiming.h; path = components/AnimationTiming/src/MaterialAnimationTiming.h; sourceTree = "<group>"; };
+		5341CD18CE41B2B943AACC83332CFDAD /* NSLocale+MaterialRTL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLocale+MaterialRTL.h"; path = "Sources/NSLocale+MaterialRTL.h"; sourceTree = "<group>"; };
+		54F805A6DE5B4C7E2DF47991083572EF /* MaterialAvailability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialAvailability.h; path = components/Availability/src/MaterialAvailability.h; sourceTree = "<group>"; };
+		55A4D8F8CE5E95014ADE3C0DB4518C70 /* UIView+MaterialRTL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MaterialRTL.m"; path = "Sources/UIView+MaterialRTL.m"; sourceTree = "<group>"; };
+		58FC0561510280232A7CF90AF41A7089 /* MDCTabBarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTabBarView.h; path = components/Tabs/src/TabBarView/MDCTabBarView.h; sourceTree = "<group>"; };
+		59780E92BA8F9A8D7786D8229B96C577 /* NSLocale+MaterialRTL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLocale+MaterialRTL.m"; path = "Sources/NSLocale+MaterialRTL.m"; sourceTree = "<group>"; };
+		5BC8852CD1A33E73511B7F5A25AFE218 /* MaterialComponents.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MaterialComponents.modulemap; sourceTree = "<group>"; };
+		5C7AE97811235534DCD8ACE12C7452B3 /* MDCTabBarViewPrivateIndicatorContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTabBarViewPrivateIndicatorContext.m; path = components/Tabs/src/TabBarView/private/MDCTabBarViewPrivateIndicatorContext.m; sourceTree = "<group>"; };
+		5FA83145BD7E4F24B36B51D686E94E07 /* NSString+MaterialBidi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MaterialBidi.h"; path = "Sources/NSString+MaterialBidi.h"; sourceTree = "<group>"; };
+		60291EC2A6D4F833083CE9B12005422A /* MDFInternationalization.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MDFInternationalization.debug.xcconfig; sourceTree = "<group>"; };
+		603983B896F195E7BF88E1B8422DCA9E /* Pods-Shwimah.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shwimah.release.xcconfig"; sourceTree = "<group>"; };
+		61F0B73A94DE46101CA8F8311CD7B97C /* MOLHLanguage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MOLHLanguage.swift; path = Sources/MOLH/MOLHLanguage.swift; sourceTree = "<group>"; };
+		66CC9375E9E4EDA0FF9249FF4A72263B /* CHIPageControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CHIPageControl-Info.plist"; sourceTree = "<group>"; };
+		69327E828E9B6A513A007C0298411675 /* MaterialComponents-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaterialComponents-prefix.pch"; sourceTree = "<group>"; };
+		6A6D1D57D69358CE164AC2DA9B0A9A9D /* CHIPageControlFresno.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlFresno.swift; path = CHIPageControl/CHIPageControlFresno.swift; sourceTree = "<group>"; };
+		6A71A6A12D85D57976C39ACC260F4678 /* CHIPageControlAji.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlAji.swift; path = CHIPageControl/CHIPageControlAji.swift; sourceTree = "<group>"; };
+		6E245A077F8122DFF12201825CFC538C /* MDCTabBarViewPrivateIndicatorContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTabBarViewPrivateIndicatorContext.h; path = components/Tabs/src/TabBarView/private/MDCTabBarViewPrivateIndicatorContext.h; sourceTree = "<group>"; };
+		6F76B4E582FB58EBAAB488C1431FCAC6 /* MOLH-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MOLH-umbrella.h"; sourceTree = "<group>"; };
+		701722E10855AA863EBE9696BF7B6FF4 /* CHIPageControlPaprika.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlPaprika.swift; path = CHIPageControl/CHIPageControlPaprika.swift; sourceTree = "<group>"; };
+		7026BE550E8BF67A0AEE486EEACE3E71 /* MDFInternationalization-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MDFInternationalization-prefix.pch"; sourceTree = "<group>"; };
+		72CAC805FEA251BD9258B235EB46B9BA /* UIColor+MaterialBlending.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+MaterialBlending.m"; path = "components/private/Color/src/UIColor+MaterialBlending.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7412F1FC5A669D2D2CCF2ECF0525703F /* MaterialComponents-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaterialComponents-umbrella.h"; sourceTree = "<group>"; };
+		7572EA89804E968594C1BE0F51B8F465 /* CHIPageControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CHIPageControl-dummy.m"; sourceTree = "<group>"; };
+		77122D8AECE4C52730E62F9DE06C1BAD /* MDCRippleLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCRippleLayer.m; path = components/Ripple/src/private/MDCRippleLayer.m; sourceTree = "<group>"; };
+		79B58DF15A7A27EF582AA49F4E3A6519 /* CHIPageControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHIPageControl-prefix.pch"; sourceTree = "<group>"; };
+		7B27D7A3EF82BAEBEF4531D954FF42D6 /* MDCStatefulRippleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCStatefulRippleView.m; path = components/Ripple/src/MDCStatefulRippleView.m; sourceTree = "<group>"; };
+		7B931E7761903243ABA8F2891E440F05 /* UIColor+MaterialBlending.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+MaterialBlending.h"; path = "components/private/Color/src/UIColor+MaterialBlending.h"; sourceTree = "<group>"; };
+		7DF55AA9E136A2A9E8AEEE02C072A1D1 /* MDFRTL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDFRTL.m; path = Sources/MDFRTL.m; sourceTree = "<group>"; };
+		848B394F4487A9163150311C32C8B2E4 /* MDFRTL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDFRTL.h; path = Sources/MDFRTL.h; sourceTree = "<group>"; };
+		853E7A7A17057E987CF0B339E8A58861 /* CHIPageControlAleppo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlAleppo.swift; path = CHIPageControl/CHIPageControlAleppo.swift; sourceTree = "<group>"; };
+		86FC8365DDDE92A1B7A3F9D6280238B2 /* MDCMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCMath.h; path = components/private/Math/src/MDCMath.h; sourceTree = "<group>"; };
+		879053D9E32769D36E98F4C2F5E9C25C /* MDFInternationalization-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MDFInternationalization-Info.plist"; sourceTree = "<group>"; };
+		87D307CE5ABC0816EF9D34B874A0E3C3 /* MaterialMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialMath.h; path = components/private/Math/src/MaterialMath.h; sourceTree = "<group>"; };
+		88DB275EF14AC4E3F1A75A8DBF2CDDF4 /* MaterialComponents-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MaterialComponents-Info.plist"; sourceTree = "<group>"; };
+		8A20F59C0DDE80E063C766F44A88321C /* Pods-Shwimah.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shwimah.debug.xcconfig"; sourceTree = "<group>"; };
+		8BD6BABB367E63BB8C5FD4942148BDE5 /* MDCTabBarViewUnderlineIndicatorTemplate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTabBarViewUnderlineIndicatorTemplate.m; path = components/Tabs/src/TabBarView/MDCTabBarViewUnderlineIndicatorTemplate.m; sourceTree = "<group>"; };
+		8FFB0A9103E2C1D550840587BA54728C /* UIImage+MaterialRTL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MaterialRTL.h"; path = "Sources/UIImage+MaterialRTL.h"; sourceTree = "<group>"; };
+		9028E416B15C2620409585EBD9AB0777 /* Pods-Shwimah-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shwimah-umbrella.h"; sourceTree = "<group>"; };
+		902C9E69245F6CA4230C3F1CE367D3F5 /* MaterialTabs+TabBarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MaterialTabs+TabBarView.h"; path = "components/Tabs/src/TabBarView/MaterialTabs+TabBarView.h"; sourceTree = "<group>"; };
+		911430D7D3B934B309FE4C5416791860 /* CHIBasePageControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIBasePageControl.swift; path = CHIPageControl/Core/CHIBasePageControl.swift; sourceTree = "<group>"; };
+		92402C6E2D842DDEE6C8B27FE6D8FF91 /* CHIPageControllable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControllable.swift; path = CHIPageControl/Core/CHIPageControllable.swift; sourceTree = "<group>"; };
+		9487296C3798D55496EF350C7DC55AE4 /* MDCTabBarViewUnderlineIndicatorTemplate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTabBarViewUnderlineIndicatorTemplate.h; path = components/Tabs/src/TabBarView/MDCTabBarViewUnderlineIndicatorTemplate.h; sourceTree = "<group>"; };
+		991070703D64E154EDF6A7407A6C50DB /* MOLH.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MOLH.swift; path = Sources/MOLH/MOLH.swift; sourceTree = "<group>"; };
+		9A2AC0B8BAC6EF061EBC28825653DF99 /* MDFInternationalization */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MDFInternationalization; path = MDFInternationalization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A38531FBFC37C37DE9ECDB58F84EF48 /* Pods-Shwimah-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Shwimah-Info.plist"; sourceTree = "<group>"; };
+		9A9E32657003E883F4C11E3CCAAAE988 /* UIView+MDCTimingFunction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MDCTimingFunction.h"; path = "components/AnimationTiming/src/UIView+MDCTimingFunction.h"; sourceTree = "<group>"; };
+		9B83585431FA3B72857A52667F603B68 /* MDCTabBarViewItemView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTabBarViewItemView.m; path = components/Tabs/src/TabBarView/private/MDCTabBarViewItemView.m; sourceTree = "<group>"; };
+		9BE79B05021A6FADB7BDD3C64F22CC85 /* MDCRippleLayerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCRippleLayerDelegate.h; path = components/Ripple/src/private/MDCRippleLayerDelegate.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A34157B3708EDB7D17422B3D92F591D2 /* MaterialComponents */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MaterialComponents; path = MaterialComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A49CE56211424B4A27F5A6AC76F72BDE /* MaterialColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialColor.h; path = components/private/Color/src/MaterialColor.h; sourceTree = "<group>"; };
+		A4EEE7894643E29BDBB4D6E7B3E67237 /* MOLH */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MOLH; path = MOLH.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD1F81DECB99B82348CE4CF49B3E28E /* MDCTabBarItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTabBarItem.h; path = components/Tabs/src/TabBarView/MDCTabBarItem.h; sourceTree = "<group>"; };
+		AB6FD1694A48C6AF1EE89207347D49F7 /* MaterialComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MaterialComponents.release.xcconfig; sourceTree = "<group>"; };
+		ABE062E78931240B63A7A0F1CFE53D80 /* Pods-Shwimah-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Shwimah-frameworks.sh"; sourceTree = "<group>"; };
+		AC7C43E575D571372F17E34F8C23DD77 /* CHIPageControlPuya.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlPuya.swift; path = CHIPageControl/CHIPageControlPuya.swift; sourceTree = "<group>"; };
+		B9BAA06B2DF53A5DD31E024B4437682B /* MDCTabBarViewItemViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTabBarViewItemViewDelegate.h; path = components/Tabs/src/TabBarView/private/MDCTabBarViewItemViewDelegate.h; sourceTree = "<group>"; };
+		C0FA7F19035BD812A6374397DF2D7AD6 /* UIView+MaterialRTL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MaterialRTL.h"; path = "Sources/UIView+MaterialRTL.h"; sourceTree = "<group>"; };
+		C8F1AA80B414E238686AC06244F06FF2 /* MDCTabBarItemCustomViewing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTabBarItemCustomViewing.h; path = components/Tabs/src/TabBarView/MDCTabBarItemCustomViewing.h; sourceTree = "<group>"; };
+		C959AB8EAD9BA5E81FAFB237EA0985E1 /* MOLHSizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MOLHSizable.swift; path = Sources/MOLH/MOLHSizable.swift; sourceTree = "<group>"; };
+		CED7A0B8E17E40B2D0F7734F94A5FCAA /* MDCTabBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTabBarView.m; path = components/Tabs/src/TabBarView/MDCTabBarView.m; sourceTree = "<group>"; };
+		CEF402716E1F8680CCDE1154994BAD46 /* NSString+MaterialBidi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MaterialBidi.m"; path = "Sources/NSString+MaterialBidi.m"; sourceTree = "<group>"; };
+		CF11C62A6DD9EA7F0C7E8003A590AF32 /* MDCTabBarViewIndicatorTemplate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTabBarViewIndicatorTemplate.h; path = components/Tabs/src/TabBarView/MDCTabBarViewIndicatorTemplate.h; sourceTree = "<group>"; };
+		CFF9A2C063A38839D00E43052E7E8D4B /* MDCTabBarItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTabBarItem.m; path = components/Tabs/src/TabBarView/MDCTabBarItem.m; sourceTree = "<group>"; };
+		D18339A5E036066C542744F92ABE530D /* Pods-Shwimah.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Shwimah.modulemap"; sourceTree = "<group>"; };
+		D464BD33CAD957FCB5F5AB9430A3BEAD /* MOLHFontLocalizableViews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MOLHFontLocalizableViews.swift; path = Sources/MOLH/MOLHFontLocalizableViews.swift; sourceTree = "<group>"; };
+		D88F387B4EA895C110FC4CD4F570FF97 /* MOLH-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MOLH-dummy.m"; sourceTree = "<group>"; };
+		D8C6C020046C7ED2F71553CEF8676BF6 /* MDFInternationalization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDFInternationalization.h; path = Sources/MDFInternationalization.h; sourceTree = "<group>"; };
+		DAEAE1474668B6C0B7726C85155DAE02 /* UIColor+MaterialDynamic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+MaterialDynamic.m"; path = "components/private/Color/src/UIColor+MaterialDynamic.m"; sourceTree = "<group>"; };
+		DE565781EF2169E5D13AACF5B653FE29 /* CHIPageControlChimayo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlChimayo.swift; path = CHIPageControl/CHIPageControlChimayo.swift; sourceTree = "<group>"; };
+		E01C9D78BEF32418B87CD29F38FEC8E3 /* MDFInternationalization.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MDFInternationalization.modulemap; sourceTree = "<group>"; };
+		E1239493853AFD9600B8A46E8701760B /* CHIPageControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHIPageControl-umbrella.h"; sourceTree = "<group>"; };
+		E286A2B4C8A091D833BBE210A6D43431 /* MDCTabBarViewIndicatorAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTabBarViewIndicatorAttributes.h; path = components/Tabs/src/TabBarView/MDCTabBarViewIndicatorAttributes.h; sourceTree = "<group>"; };
+		E46EA0C2F91BB26C6A19A0026A50CCEC /* UIColor+MaterialDynamic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+MaterialDynamic.h"; path = "components/private/Color/src/UIColor+MaterialDynamic.h"; sourceTree = "<group>"; };
+		E8A60A194D7725DC1D6C7095263C90D4 /* MaterialComponents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MaterialComponents.debug.xcconfig; sourceTree = "<group>"; };
+		E9C356E17D703D6DC81F6BD741B74EC0 /* MOLHFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MOLHFont.swift; path = Sources/MOLH/MOLHFont.swift; sourceTree = "<group>"; };
+		ED529D8CC72D8E3568CA2D55F3C715B0 /* CAMediaTimingFunction+MDCAnimationTiming.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CAMediaTimingFunction+MDCAnimationTiming.h"; path = "components/AnimationTiming/src/CAMediaTimingFunction+MDCAnimationTiming.h"; sourceTree = "<group>"; };
+		EE13C94C8A7E80DCBDABE242502F9336 /* CHIPageControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHIPageControl.release.xcconfig; sourceTree = "<group>"; };
+		F069C82141907189D792128124426275 /* MDCRippleViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCRippleViewDelegate.h; path = components/Ripple/src/MDCRippleViewDelegate.h; sourceTree = "<group>"; };
+		F203B0EFA2E9B5A0DD3163F12D6C3BF5 /* MDCTabBarViewCustomViewable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTabBarViewCustomViewable.h; path = components/Tabs/src/TabBarView/MDCTabBarViewCustomViewable.h; sourceTree = "<group>"; };
+		F21556807650796A5C41A800A09DD05E /* MOLH-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MOLH-Info.plist"; sourceTree = "<group>"; };
+		F5E05B99ADD8CD618B37FE3D67D9F369 /* MDCTabBarViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTabBarViewDelegate.h; path = components/Tabs/src/TabBarView/MDCTabBarViewDelegate.h; sourceTree = "<group>"; };
+		FAD835361D45BBFB31C6FF1F1184780B /* MOLH-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MOLH-prefix.pch"; sourceTree = "<group>"; };
+		FB7D29C6F1C584E785417799ED5E35C1 /* MDCRippleTouchController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCRippleTouchController.h; path = components/Ripple/src/MDCRippleTouchController.h; sourceTree = "<group>"; };
+		FE01A4944CB3D64BF681B4EC719358DE /* CHIPageControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CHIPageControl.modulemap; sourceTree = "<group>"; };
+		FE2FA761142B541F63D14A32FB8AA075 /* MDCRippleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCRippleView.h; path = components/Ripple/src/MDCRippleView.h; sourceTree = "<group>"; };
+		FE80FE635EABFE76B69832007A4F7B22 /* Pods-Shwimah-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Shwimah-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FE9B1F114E80A6DC882F8514EFA10DC5 /* MDFInternationalization-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MDFInternationalization-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68096AD92AEC5DC7D2923359657AEDC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				278194B768DE64A3351FB871BAA870F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685E7CAB232DF810319660AEE3C67CEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3685F0E6ACFD9CE9F03513C9813D7C42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97100557D4A5346C99DEA698C085F97F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35535D47C0352B85D583640B21361228 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A563BE445A159E73000F25A2BC3B940E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C033F3E94355E90147C197D165E7DEE0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB86079893B9C3F6F0BA3A8FA77D8125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95C17D4D5E64FA4D09FC8B2285BC0902 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043CF8AA912DEB85CDAEBE5C6A77BE92 /* MOLH */ = {
+			isa = PBXGroup;
+			children = (
+				991070703D64E154EDF6A7407A6C50DB /* MOLH.swift */,
+				E9C356E17D703D6DC81F6BD741B74EC0 /* MOLHFont.swift */,
+				D464BD33CAD957FCB5F5AB9430A3BEAD /* MOLHFontLocalizableViews.swift */,
+				61F0B73A94DE46101CA8F8311CD7B97C /* MOLHLanguage.swift */,
+				C959AB8EAD9BA5E81FAFB237EA0985E1 /* MOLHSizable.swift */,
+				D5410DBA1EBAE41A6086EFE75AFCF183 /* Support Files */,
+			);
+			name = MOLH;
+			path = MOLH;
+			sourceTree = "<group>";
+		};
+		198E6532359E4CCAC07A5500F23E45E9 /* MaterialComponents */ = {
+			isa = PBXGroup;
+			children = (
+				80B570FC5B5A72318ED02E7C919F3623 /* AnimationTiming */,
+				722EED79C8FAEDB2E4C23CA339F48B0C /* Availability */,
+				9C997DE8FC150B3021C85849B46897A8 /* private */,
+				674CFCA721AE8ABAE1D57EA81D82CE7A /* Ripple */,
+				EB45ED3F14F7372CF396FB65A09B84C7 /* Support Files */,
+				729D44973D9E63E1D44D5E686C678D8F /* Tabs+TabBarView */,
+			);
+			name = MaterialComponents;
+			path = MaterialComponents;
+			sourceTree = "<group>";
+		};
+		2A394E9D76360F786DD18BAE2AF929DA /* MDFInternationalization */ = {
+			isa = PBXGroup;
+			children = (
+				D8C6C020046C7ED2F71553CEF8676BF6 /* MDFInternationalization.h */,
+				848B394F4487A9163150311C32C8B2E4 /* MDFRTL.h */,
+				7DF55AA9E136A2A9E8AEEE02C072A1D1 /* MDFRTL.m */,
+				5341CD18CE41B2B943AACC83332CFDAD /* NSLocale+MaterialRTL.h */,
+				59780E92BA8F9A8D7786D8229B96C577 /* NSLocale+MaterialRTL.m */,
+				5FA83145BD7E4F24B36B51D686E94E07 /* NSString+MaterialBidi.h */,
+				CEF402716E1F8680CCDE1154994BAD46 /* NSString+MaterialBidi.m */,
+				8FFB0A9103E2C1D550840587BA54728C /* UIImage+MaterialRTL.h */,
+				35E3556B20DAA2108A0927B4E9705B9C /* UIImage+MaterialRTL.m */,
+				C0FA7F19035BD812A6374397DF2D7AD6 /* UIView+MaterialRTL.h */,
+				55A4D8F8CE5E95014ADE3C0DB4518C70 /* UIView+MaterialRTL.m */,
+				EF0C72F94E99A3D601B86A5A5AC1F85C /* Support Files */,
+			);
+			name = MDFInternationalization;
+			path = MDFInternationalization;
+			sourceTree = "<group>";
+		};
+		34B822C3595C00B3E14D3287F23C8F65 /* Pods-Shwimah */ = {
+			isa = PBXGroup;
+			children = (
+				D18339A5E036066C542744F92ABE530D /* Pods-Shwimah.modulemap */,
+				FE80FE635EABFE76B69832007A4F7B22 /* Pods-Shwimah-acknowledgements.markdown */,
+				4BF06551114C8F577BB0BFBC84EBB318 /* Pods-Shwimah-acknowledgements.plist */,
+				2EEC3669C0A21257D6936C1824D46F40 /* Pods-Shwimah-dummy.m */,
+				ABE062E78931240B63A7A0F1CFE53D80 /* Pods-Shwimah-frameworks.sh */,
+				9A38531FBFC37C37DE9ECDB58F84EF48 /* Pods-Shwimah-Info.plist */,
+				9028E416B15C2620409585EBD9AB0777 /* Pods-Shwimah-umbrella.h */,
+				8A20F59C0DDE80E063C766F44A88321C /* Pods-Shwimah.debug.xcconfig */,
+				603983B896F195E7BF88E1B8422DCA9E /* Pods-Shwimah.release.xcconfig */,
+			);
+			name = "Pods-Shwimah";
+			path = "Target Support Files/Pods-Shwimah";
+			sourceTree = "<group>";
+		};
+		414AC67D154DAEF4A81154BAAE1F5434 /* Jalapeno */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Jalapeno;
+			sourceTree = "<group>";
+		};
+		4FAC958F43A00FB3F6B3717C5B406C76 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				A49CE56211424B4A27F5A6AC76F72BDE /* MaterialColor.h */,
+				7B931E7761903243ABA8F2891E440F05 /* UIColor+MaterialBlending.h */,
+				72CAC805FEA251BD9258B235EB46B9BA /* UIColor+MaterialBlending.m */,
+				E46EA0C2F91BB26C6A19A0026A50CCEC /* UIColor+MaterialDynamic.h */,
+				DAEAE1474668B6C0B7726C85155DAE02 /* UIColor+MaterialDynamic.m */,
+			);
+			name = Color;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5DB17BC7DA050CC63E26A06A009ACE2F /* CHIPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				911430D7D3B934B309FE4C5416791860 /* CHIBasePageControl.swift */,
+				38A131F1D494241AB35CEE99BBEF56A7 /* CHILayer.swift */,
+				6A71A6A12D85D57976C39ACC260F4678 /* CHIPageControlAji.swift */,
+				853E7A7A17057E987CF0B339E8A58861 /* CHIPageControlAleppo.swift */,
+				DE565781EF2169E5D13AACF5B653FE29 /* CHIPageControlChimayo.swift */,
+				6A6D1D57D69358CE164AC2DA9B0A9A9D /* CHIPageControlFresno.swift */,
+				3C2C99A9F0029D5FF3E23E01078E6034 /* CHIPageControlJalapeno.swift */,
+				0A5B9327ADF5B29DC5ABF5A995A61095 /* CHIPageControlJaloro.swift */,
+				92402C6E2D842DDEE6C8B27FE6D8FF91 /* CHIPageControllable.swift */,
+				701722E10855AA863EBE9696BF7B6FF4 /* CHIPageControlPaprika.swift */,
+				AC7C43E575D571372F17E34F8C23DD77 /* CHIPageControlPuya.swift */,
+				BC4ED5ADA4B11012E44543C558882059 /* Aji */,
+				8975C8383DFEF98B10B3CE2D7E8716C8 /* Aleppo */,
+				A94A9C4AFABAF7465E44B5F922B3E0DB /* Chimayo */,
+				70A5D8B6226AF43B8C11D06A45DC2D64 /* Fresno */,
+				414AC67D154DAEF4A81154BAAE1F5434 /* Jalapeno */,
+				FC11C49BEEA8BE3DF829B6720AD8C3AC /* Jaloro */,
+				B00A44666813C16CF549A484AC2EF7B9 /* Paprika */,
+				635B336FB0A8EDFDD0A5691F8262EF43 /* Puya */,
+				881572C815F8470DCDF0CBD25656EAC8 /* Support Files */,
+			);
+			name = CHIPageControl;
+			path = CHIPageControl;
+			sourceTree = "<group>";
+		};
+		635B336FB0A8EDFDD0A5691F8262EF43 /* Puya */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Puya;
+			sourceTree = "<group>";
+		};
+		674CFCA721AE8ABAE1D57EA81D82CE7A /* Ripple */ = {
+			isa = PBXGroup;
+			children = (
+				2AF924CC1B19FA1E74C93C6CACAEC382 /* MaterialRipple.h */,
+				332D25C6018B5C8062EED85D258E5700 /* MDCRippleLayer.h */,
+				77122D8AECE4C52730E62F9DE06C1BAD /* MDCRippleLayer.m */,
+				9BE79B05021A6FADB7BDD3C64F22CC85 /* MDCRippleLayerDelegate.h */,
+				FB7D29C6F1C584E785417799ED5E35C1 /* MDCRippleTouchController.h */,
+				155BFD74E8F09F9B508FB81B6FA2DF0B /* MDCRippleTouchController.m */,
+				317271D65E50F6B64A8F8AC36B9B2B23 /* MDCRippleTouchControllerDelegate.h */,
+				FE2FA761142B541F63D14A32FB8AA075 /* MDCRippleView.h */,
+				26D05096C91C26D603808552799476ED /* MDCRippleView.m */,
+				F069C82141907189D792128124426275 /* MDCRippleViewDelegate.h */,
+				22B6C87722767A0A293D62A09D7C2826 /* MDCStatefulRippleView.h */,
+				7B27D7A3EF82BAEBEF4531D954FF42D6 /* MDCStatefulRippleView.m */,
+			);
+			name = Ripple;
+			sourceTree = "<group>";
+		};
+		69C3197C284E6341E8C4F172CF1112A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DB17BC7DA050CC63E26A06A009ACE2F /* CHIPageControl */,
+				198E6532359E4CCAC07A5500F23E45E9 /* MaterialComponents */,
+				2A394E9D76360F786DD18BAE2AF929DA /* MDFInternationalization */,
+				043CF8AA912DEB85CDAEBE5C6A77BE92 /* MOLH */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		70A5D8B6226AF43B8C11D06A45DC2D64 /* Fresno */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Fresno;
+			sourceTree = "<group>";
+		};
+		722EED79C8FAEDB2E4C23CA339F48B0C /* Availability */ = {
+			isa = PBXGroup;
+			children = (
+				54F805A6DE5B4C7E2DF47991083572EF /* MaterialAvailability.h */,
+				1C26F0A81DCC558E09B9CA15CBDC66DD /* MDCAvailability.h */,
+			);
+			name = Availability;
+			sourceTree = "<group>";
+		};
+		729D44973D9E63E1D44D5E686C678D8F /* Tabs+TabBarView */ = {
+			isa = PBXGroup;
+			children = (
+				902C9E69245F6CA4230C3F1CE367D3F5 /* MaterialTabs+TabBarView.h */,
+				AAD1F81DECB99B82348CE4CF49B3E28E /* MDCTabBarItem.h */,
+				CFF9A2C063A38839D00E43052E7E8D4B /* MDCTabBarItem.m */,
+				C8F1AA80B414E238686AC06244F06FF2 /* MDCTabBarItemCustomViewing.h */,
+				58FC0561510280232A7CF90AF41A7089 /* MDCTabBarView.h */,
+				CED7A0B8E17E40B2D0F7734F94A5FCAA /* MDCTabBarView.m */,
+				F203B0EFA2E9B5A0DD3163F12D6C3BF5 /* MDCTabBarViewCustomViewable.h */,
+				F5E05B99ADD8CD618B37FE3D67D9F369 /* MDCTabBarViewDelegate.h */,
+				E286A2B4C8A091D833BBE210A6D43431 /* MDCTabBarViewIndicatorAttributes.h */,
+				03400EEAB10C299D67819A00BA8528B0 /* MDCTabBarViewIndicatorAttributes.m */,
+				26FBCDF159CA174A8153C907E3564CA8 /* MDCTabBarViewIndicatorContext.h */,
+				CF11C62A6DD9EA7F0C7E8003A590AF32 /* MDCTabBarViewIndicatorTemplate.h */,
+				46F30386B925EAE273355517EA9ECA1A /* MDCTabBarViewIndicatorView.h */,
+				01A3056AD6389A2A685E5D3F7E2D69EC /* MDCTabBarViewIndicatorView.m */,
+				09B3E888F2724804C3EB4BEBA7297BA3 /* MDCTabBarViewItemView.h */,
+				9B83585431FA3B72857A52667F603B68 /* MDCTabBarViewItemView.m */,
+				B9BAA06B2DF53A5DD31E024B4437682B /* MDCTabBarViewItemViewDelegate.h */,
+				6E245A077F8122DFF12201825CFC538C /* MDCTabBarViewPrivateIndicatorContext.h */,
+				5C7AE97811235534DCD8ACE12C7452B3 /* MDCTabBarViewPrivateIndicatorContext.m */,
+				9487296C3798D55496EF350C7DC55AE4 /* MDCTabBarViewUnderlineIndicatorTemplate.h */,
+				8BD6BABB367E63BB8C5FD4942148BDE5 /* MDCTabBarViewUnderlineIndicatorTemplate.m */,
+			);
+			name = "Tabs+TabBarView";
+			sourceTree = "<group>";
+		};
+		80B570FC5B5A72318ED02E7C919F3623 /* AnimationTiming */ = {
+			isa = PBXGroup;
+			children = (
+				ED529D8CC72D8E3568CA2D55F3C715B0 /* CAMediaTimingFunction+MDCAnimationTiming.h */,
+				36CA164D62A534046E14DD431E0D5D01 /* CAMediaTimingFunction+MDCAnimationTiming.m */,
+				51FC49972DBE3E5C791AE24FE4C24059 /* MaterialAnimationTiming.h */,
+				9A9E32657003E883F4C11E3CCAAAE988 /* UIView+MDCTimingFunction.h */,
+				0E4D3492E6538A0A8A5D032E6B4D0728 /* UIView+MDCTimingFunction.m */,
+			);
+			name = AnimationTiming;
+			sourceTree = "<group>";
+		};
+		881572C815F8470DCDF0CBD25656EAC8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE01A4944CB3D64BF681B4EC719358DE /* CHIPageControl.modulemap */,
+				7572EA89804E968594C1BE0F51B8F465 /* CHIPageControl-dummy.m */,
+				66CC9375E9E4EDA0FF9249FF4A72263B /* CHIPageControl-Info.plist */,
+				79B58DF15A7A27EF582AA49F4E3A6519 /* CHIPageControl-prefix.pch */,
+				E1239493853AFD9600B8A46E8701760B /* CHIPageControl-umbrella.h */,
+				33AE78493F996FE3C201FDEF77DCF578 /* CHIPageControl.debug.xcconfig */,
+				EE13C94C8A7E80DCBDABE242502F9336 /* CHIPageControl.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CHIPageControl";
+			sourceTree = "<group>";
+		};
+		8975C8383DFEF98B10B3CE2D7E8716C8 /* Aleppo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Aleppo;
+			sourceTree = "<group>";
+		};
+		9467D38A18DF80C23BD7139FCABB3608 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A90E991BC0CB35AB6D91E18C9490643 /* CHIPageControl */,
+				A34157B3708EDB7D17422B3D92F591D2 /* MaterialComponents */,
+				9A2AC0B8BAC6EF061EBC28825653DF99 /* MDFInternationalization */,
+				A4EEE7894643E29BDBB4D6E7B3E67237 /* MOLH */,
+				3567ABDB012B543472AB26FEED0F8C87 /* Pods-Shwimah */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C997DE8FC150B3021C85849B46897A8 /* private */ = {
+			isa = PBXGroup;
+			children = (
+				4FAC958F43A00FB3F6B3717C5B406C76 /* Color */,
+				F389D2CC1D841ECBE5EE291FA9F67CE0 /* Math */,
+			);
+			name = private;
+			sourceTree = "<group>";
+		};
+		A94A9C4AFABAF7465E44B5F922B3E0DB /* Chimayo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Chimayo;
+			sourceTree = "<group>";
+		};
+		B00A44666813C16CF549A484AC2EF7B9 /* Paprika */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Paprika;
+			sourceTree = "<group>";
+		};
+		BC4ED5ADA4B11012E44543C558882059 /* Aji */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Aji;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				69C3197C284E6341E8C4F172CF1112A0 /* Pods */,
+				9467D38A18DF80C23BD7139FCABB3608 /* Products */,
+				F3C99CAA6DCEB8C11BDC1A628647D1BB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5410DBA1EBAE41A6086EFE75AFCF183 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				494305438DB5ED643BB69F201FBCA9CE /* MOLH.modulemap */,
+				D88F387B4EA895C110FC4CD4F570FF97 /* MOLH-dummy.m */,
+				F21556807650796A5C41A800A09DD05E /* MOLH-Info.plist */,
+				FAD835361D45BBFB31C6FF1F1184780B /* MOLH-prefix.pch */,
+				6F76B4E582FB58EBAAB488C1431FCAC6 /* MOLH-umbrella.h */,
+				4865A9C010C49033B3703B4F3FC9AAE1 /* MOLH.debug.xcconfig */,
+				430F4A01304B08C66DFF3BC256FD7507 /* MOLH.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MOLH";
+			sourceTree = "<group>";
+		};
+		EB45ED3F14F7372CF396FB65A09B84C7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BC8852CD1A33E73511B7F5A25AFE218 /* MaterialComponents.modulemap */,
+				195CD63F754B9225669903985B5D0820 /* MaterialComponents-dummy.m */,
+				88DB275EF14AC4E3F1A75A8DBF2CDDF4 /* MaterialComponents-Info.plist */,
+				69327E828E9B6A513A007C0298411675 /* MaterialComponents-prefix.pch */,
+				7412F1FC5A669D2D2CCF2ECF0525703F /* MaterialComponents-umbrella.h */,
+				E8A60A194D7725DC1D6C7095263C90D4 /* MaterialComponents.debug.xcconfig */,
+				AB6FD1694A48C6AF1EE89207347D49F7 /* MaterialComponents.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MaterialComponents";
+			sourceTree = "<group>";
+		};
+		EF0C72F94E99A3D601B86A5A5AC1F85C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E01C9D78BEF32418B87CD29F38FEC8E3 /* MDFInternationalization.modulemap */,
+				FE9B1F114E80A6DC882F8514EFA10DC5 /* MDFInternationalization-dummy.m */,
+				879053D9E32769D36E98F4C2F5E9C25C /* MDFInternationalization-Info.plist */,
+				7026BE550E8BF67A0AEE486EEACE3E71 /* MDFInternationalization-prefix.pch */,
+				23046BAE436C4EFE0C934C33A0270771 /* MDFInternationalization-umbrella.h */,
+				60291EC2A6D4F833083CE9B12005422A /* MDFInternationalization.debug.xcconfig */,
+				0CD6A7C9181D49E5326B75CE379CB19C /* MDFInternationalization.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MDFInternationalization";
+			sourceTree = "<group>";
+		};
+		F389D2CC1D841ECBE5EE291FA9F67CE0 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				87D307CE5ABC0816EF9D34B874A0E3C3 /* MaterialMath.h */,
+				2245F448E98BC1F006CF20B1DA7C7436 /* MaterialMathDummy.m */,
+				86FC8365DDDE92A1B7A3F9D6280238B2 /* MDCMath.h */,
+			);
+			name = Math;
+			sourceTree = "<group>";
+		};
+		F3C99CAA6DCEB8C11BDC1A628647D1BB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				34B822C3595C00B3E14D3287F23C8F65 /* Pods-Shwimah */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FC11C49BEEA8BE3DF829B6720AD8C3AC /* Jaloro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Jaloro;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A5668479DA2150ADDE71D08D249B95F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F0C48049629F8DDF49863CC18DD080 /* CHIPageControl-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C9BF934BC3E85B0D88F28E81522B924 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D9715A0AE38B39348A1BDCC727484B /* CAMediaTimingFunction+MDCAnimationTiming.h in Headers */,
+				EEC6A740E9DABE5EDB738B8624882173 /* MaterialAnimationTiming.h in Headers */,
+				6EF8DC888360A33005D5247A3E7A552D /* MaterialAvailability.h in Headers */,
+				D043F532B6D383FF72EAB95C880ACC7F /* MaterialColor.h in Headers */,
+				1889DB4BEA06824DA6705C2CB34BE39D /* MaterialComponents-umbrella.h in Headers */,
+				366A466625E7D975790AD25DE263A8BC /* MaterialMath.h in Headers */,
+				8E08A260ECE7CE2970B95E884A773802 /* MaterialRipple.h in Headers */,
+				8F09BFD9A22CCD6564ED193C1564092A /* MaterialTabs+TabBarView.h in Headers */,
+				EF8049C4803CB325E89CF0C623C03F43 /* MDCAvailability.h in Headers */,
+				3448D373EA87D0490B970FDE9462A38F /* MDCMath.h in Headers */,
+				65FBF61FDC551D8437972D45A060D352 /* MDCRippleLayer.h in Headers */,
+				81715F40B9BC8B2C0C4BBE7A78E29CEC /* MDCRippleLayerDelegate.h in Headers */,
+				871685EEEB37778DF7927CF83EF92C18 /* MDCRippleTouchController.h in Headers */,
+				995640C083C428471A3CFE4DCF56818A /* MDCRippleTouchControllerDelegate.h in Headers */,
+				4AEF864E97A54DBBB94CF76220FB4AEB /* MDCRippleView.h in Headers */,
+				D994A6BF016F89453703BB13D304B633 /* MDCRippleViewDelegate.h in Headers */,
+				068CB12FF966ADC02C37760368EA509C /* MDCStatefulRippleView.h in Headers */,
+				FCBD6083FB15B76DFC70202D05E2071B /* MDCTabBarItem.h in Headers */,
+				861E1F94198F369331016C313125381F /* MDCTabBarItemCustomViewing.h in Headers */,
+				3432328B6E144B5B1B7C795408D74C38 /* MDCTabBarView.h in Headers */,
+				0E0496A9A702544EF7F17753E366E88E /* MDCTabBarViewCustomViewable.h in Headers */,
+				6654DEB105ACD2D9A792B8CF058608C6 /* MDCTabBarViewDelegate.h in Headers */,
+				1AD30D98BB2B4CB1BCDFDD35709AD5CE /* MDCTabBarViewIndicatorAttributes.h in Headers */,
+				E5BA3D0D87E8AC589718A196616D48C0 /* MDCTabBarViewIndicatorContext.h in Headers */,
+				4B8ED14558E4CF3453D458A237687BFD /* MDCTabBarViewIndicatorTemplate.h in Headers */,
+				4A49770135A58538DC6512B2A68FB637 /* MDCTabBarViewIndicatorView.h in Headers */,
+				5AC9B2A4C8928E492CE70831CA5D9448 /* MDCTabBarViewItemView.h in Headers */,
+				718C11C321388B8E5665740A68765AC3 /* MDCTabBarViewItemViewDelegate.h in Headers */,
+				095D662A90C4024F809B8FC6EDC0563F /* MDCTabBarViewPrivateIndicatorContext.h in Headers */,
+				E26F984AC1C69A1D247DB67984B1A944 /* MDCTabBarViewUnderlineIndicatorTemplate.h in Headers */,
+				FA846BB254F5077F7C8EA116E36A03FD /* UIColor+MaterialBlending.h in Headers */,
+				8346DC954827FE9D5CA56A565D7F4166 /* UIColor+MaterialDynamic.h in Headers */,
+				9CDE99BBBB2FDE012CFCCBDC5E296847 /* UIView+MDCTimingFunction.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F21FA3E25AE42305BAA57FDD91E0C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC38FD5BCA8D1320068C60773305342 /* Pods-Shwimah-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82946A5BB19511200C787055222CC155 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1062EDD2C5C3B8D7A91592F639600D74 /* MDFInternationalization.h in Headers */,
+				1DCF9A800AE274F89C29078A6E212B7D /* MDFInternationalization-umbrella.h in Headers */,
+				68C81A493C4CD3F1D8425C3C12B6F1E3 /* MDFRTL.h in Headers */,
+				3CE30BDD410305F4D3C8C13D12507A4A /* NSLocale+MaterialRTL.h in Headers */,
+				9F64E84B54A721D525FB5FEB6B04AD92 /* NSString+MaterialBidi.h in Headers */,
+				F95134B340BDE8537CEDC91162AE776B /* UIImage+MaterialRTL.h in Headers */,
+				E56C430EEEEAF6E39FF0942CCD78A061 /* UIView+MaterialRTL.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CE9BB7B3150D4C916327F7A47336546 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F559FFACEE95333555D4C882685F5E77 /* MOLH-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		13E17D11090C69C55E1CC5C52E359A6A /* MOLH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45860E2466B7AFB39989271B998BE492 /* Build configuration list for PBXNativeTarget "MOLH" */;
+			buildPhases = (
+				9CE9BB7B3150D4C916327F7A47336546 /* Headers */,
+				450F8E2877F1F3BA2616A7902E812B08 /* Sources */,
+				68096AD92AEC5DC7D2923359657AEDC3 /* Frameworks */,
+				3E0B749000F2BC6786EC46EB798FDD3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MOLH;
+			productName = MOLH;
+			productReference = A4EEE7894643E29BDBB4D6E7B3E67237 /* MOLH */;
+			productType = "com.apple.product-type.framework";
+		};
+		55A01F8E987A6E2F7F0ED141A1ECA406 /* MDFInternationalization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29235CC975477CF0AE111D8533A857C9 /* Build configuration list for PBXNativeTarget "MDFInternationalization" */;
+			buildPhases = (
+				82946A5BB19511200C787055222CC155 /* Headers */,
+				85B3B64C90CFC972449F93DC4A812BBD /* Copy . Public Headers */,
+				75C42EE808FFAC35041568CFE92847AD /* Sources */,
+				A563BE445A159E73000F25A2BC3B940E /* Frameworks */,
+				AED6EDF087DBE63D55C51AEE20F3373F /* Resources */,
+				498506168756522E454E1B48EC2886A7 /* Create Symlinks to Header Folders */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MDFInternationalization;
+			productName = MDFInternationalization;
+			productReference = 9A2AC0B8BAC6EF061EBC28825653DF99 /* MDFInternationalization */;
+			productType = "com.apple.product-type.framework";
+		};
+		58A7AC722D45BA5EF49F00D98C86978B /* CHIPageControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1600C207C7D76BE3C3F71C5B46884F07 /* Build configuration list for PBXNativeTarget "CHIPageControl" */;
+			buildPhases = (
+				0A5668479DA2150ADDE71D08D249B95F /* Headers */,
+				D5C3BCCB29C3971BD1991C20760B3607 /* Sources */,
+				685E7CAB232DF810319660AEE3C67CEC /* Frameworks */,
+				ADF8F9E916F35ED7CB6E5E25ECB16DA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHIPageControl;
+			productName = CHIPageControl;
+			productReference = 4A90E991BC0CB35AB6D91E18C9490643 /* CHIPageControl */;
+			productType = "com.apple.product-type.framework";
+		};
+		61EEED717FA6AAF7588C4896E9F2B5DD /* Pods-Shwimah */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B619EFD99B0CFE0507C9F99335D57CFD /* Build configuration list for PBXNativeTarget "Pods-Shwimah" */;
+			buildPhases = (
+				63F21FA3E25AE42305BAA57FDD91E0C6 /* Headers */,
+				C67D996E9DC55E868C65BE0A52D403EB /* Sources */,
+				97100557D4A5346C99DEA698C085F97F /* Frameworks */,
+				B1FB81350E1FF3839B86B2B15647F412 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E447E527FA505DBE6D0C47135C323CB /* PBXTargetDependency */,
+				555E79CB2233AFDA651AA42271AAEC4E /* PBXTargetDependency */,
+				FE7EF6C636EA040ED3D5E1E2EE4754D1 /* PBXTargetDependency */,
+				7C0E6499BA666320DC7D5594791165F8 /* PBXTargetDependency */,
+			);
+			name = "Pods-Shwimah";
+			productName = Pods_Shwimah;
+			productReference = 3567ABDB012B543472AB26FEED0F8C87 /* Pods-Shwimah */;
+			productType = "com.apple.product-type.framework";
+		};
+		B4723B5744013DF08BE3A5FEAA286944 /* MaterialComponents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68E13C81D6E505451CEE7DB4674BE5F1 /* Build configuration list for PBXNativeTarget "MaterialComponents" */;
+			buildPhases = (
+				5C9BF934BC3E85B0D88F28E81522B924 /* Headers */,
+				68969B91DCC0A4E500FF04E281F1EDC3 /* Sources */,
+				DB86079893B9C3F6F0BA3A8FA77D8125 /* Frameworks */,
+				4BC77A682A03E5C44B6C7CA36E6EC2AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5038DCD32BA8D19AE87ED86D52358DA3 /* PBXTargetDependency */,
+			);
+			name = MaterialComponents;
+			productName = MaterialComponents;
+			productReference = A34157B3708EDB7D17422B3D92F591D2 /* MaterialComponents */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9467D38A18DF80C23BD7139FCABB3608 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58A7AC722D45BA5EF49F00D98C86978B /* CHIPageControl */,
+				B4723B5744013DF08BE3A5FEAA286944 /* MaterialComponents */,
+				55A01F8E987A6E2F7F0ED141A1ECA406 /* MDFInternationalization */,
+				13E17D11090C69C55E1CC5C52E359A6A /* MOLH */,
+				61EEED717FA6AAF7588C4896E9F2B5DD /* Pods-Shwimah */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E0B749000F2BC6786EC46EB798FDD3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BC77A682A03E5C44B6C7CA36E6EC2AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF8F9E916F35ED7CB6E5E25ECB16DA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AED6EDF087DBE63D55C51AEE20F3373F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1FB81350E1FF3839B86B2B15647F412 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		498506168756522E454E1B48EC2886A7 /* Create Symlinks to Header Folders */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Create Symlinks to Header Folders";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"$CONFIGURATION_BUILD_DIR/$WRAPPER_NAME\" || exit 1\nif [ ! -d Versions ]; then\n  # Not a versioned framework, so no need to do anything\n  exit 0\nfi\n\npublic_path=\"${PUBLIC_HEADERS_FOLDER_PATH#$CONTENTS_FOLDER_PATH/}\"\nif [ ! -f \"$public_path\" ]; then\n  ln -fs \"${PUBLIC_HEADERS_FOLDER_PATH#$WRAPPER_NAME/}\" \"$public_path\"\nfi\n\nprivate_path=\"${PRIVATE_HEADERS_FOLDER_PATH#$CONTENTS_FOLDER_PATH/}\"\nif [ ! -f \"$private_path\" ]; then\n  ln -fs \"${PRIVATE_HEADERS_FOLDER_PATH#$WRAPPER_NAME/}\" \"$private_path\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		450F8E2877F1F3BA2616A7902E812B08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECB3982B6D680B3E5631C713452DF6E /* MOLH.swift in Sources */,
+				82593D0EB2A2F1E8D829C1D5130FD9DD /* MOLH-dummy.m in Sources */,
+				3448720BBC5F115138759ED6CDB332BA /* MOLHFont.swift in Sources */,
+				9C3FDF4435916D2D8564448FE613A27D /* MOLHFontLocalizableViews.swift in Sources */,
+				ECAB2A28223EA0DFB173FDAC6803ED7A /* MOLHLanguage.swift in Sources */,
+				9E652E98C8EBBA04C5F4DC5158EE8BF8 /* MOLHSizable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68969B91DCC0A4E500FF04E281F1EDC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5101E6B4AB85FD52209AE55471651B46 /* CAMediaTimingFunction+MDCAnimationTiming.m in Sources */,
+				E87071407F25B1A1CF6E5CF01DBDFCA9 /* MaterialComponents-dummy.m in Sources */,
+				CFBDAC713DF328B4B1FFEAD4365CD118 /* MaterialMathDummy.m in Sources */,
+				7F8E3F7786A52CEA20E0C10FBF3E756E /* MDCRippleLayer.m in Sources */,
+				5B7F285552FB71A7C0DF927805BA15B9 /* MDCRippleTouchController.m in Sources */,
+				CF5360E398A5C0C41ACD95F16EE0241A /* MDCRippleView.m in Sources */,
+				98C9E19339BC3AD82AB6292CC1E5EE24 /* MDCStatefulRippleView.m in Sources */,
+				475EB7B2BCF6CAE3F0AF2DAD399B0741 /* MDCTabBarItem.m in Sources */,
+				11758CB999A008360C8E5FED8AAE71DB /* MDCTabBarView.m in Sources */,
+				1C17098A314695E72E08A821604FD854 /* MDCTabBarViewIndicatorAttributes.m in Sources */,
+				28CC21637771AD4B8DA5E2D6555B3ECA /* MDCTabBarViewIndicatorView.m in Sources */,
+				868838AC5C5332322F8A71D8B1EBCB68 /* MDCTabBarViewItemView.m in Sources */,
+				D41D2EB9298F05872A03BEBC47D07092 /* MDCTabBarViewPrivateIndicatorContext.m in Sources */,
+				E8BDE8EF01218FF315EE4EE48CFDD9F4 /* MDCTabBarViewUnderlineIndicatorTemplate.m in Sources */,
+				4C7EF49D9CFA12C18997F65AA48A29AA /* UIColor+MaterialBlending.m in Sources */,
+				A1F0957B5EE86E4D02E1D681460A20DF /* UIColor+MaterialDynamic.m in Sources */,
+				B1EE4CA43E50B1849C4D18616263411D /* UIView+MDCTimingFunction.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C42EE808FFAC35041568CFE92847AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25ABCCB506CD51393434BE44F446AD5F /* MDFInternationalization-dummy.m in Sources */,
+				BF7F9976FA80C821BC13E58E30E94B5B /* MDFRTL.m in Sources */,
+				8C050C985EF60CCC3B9E25050BE20F3E /* NSLocale+MaterialRTL.m in Sources */,
+				124EEAE22B8077371D55FDB1AC4F4D30 /* NSString+MaterialBidi.m in Sources */,
+				03219B99BEEC9AB447188784DFDF4E19 /* UIImage+MaterialRTL.m in Sources */,
+				984167BC563C943B94B43A01DECBEAB0 /* UIView+MaterialRTL.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67D996E9DC55E868C65BE0A52D403EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE894AF07F00E09576321ACCF7C6EAE6 /* Pods-Shwimah-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C3BCCB29C3971BD1991C20760B3607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A374D3B2566DFA42CF3034DE03F28B6 /* CHIBasePageControl.swift in Sources */,
+				D030071FC58D8A5A5AB5886F28DAA532 /* CHILayer.swift in Sources */,
+				C8DB2343F778EB7929D679D53B76ECB8 /* CHIPageControl-dummy.m in Sources */,
+				A047E18BDE9F7AFE0B178ABB86FBF407 /* CHIPageControlAji.swift in Sources */,
+				D8052C068BE5968B2F03E729877EDA83 /* CHIPageControlAleppo.swift in Sources */,
+				5B492E6A49B922C1A5363854795C3210 /* CHIPageControlChimayo.swift in Sources */,
+				CA43AE02267EC6A32F75A8BF4FA62691 /* CHIPageControlFresno.swift in Sources */,
+				8377753FAC9D25D1408518FB055A63AD /* CHIPageControlJalapeno.swift in Sources */,
+				D6E80C1DDB6E76EC3E9D66DE958E14E2 /* CHIPageControlJaloro.swift in Sources */,
+				362B4C9D2E384BA0CCF01CEE893583DB /* CHIPageControllable.swift in Sources */,
+				A323AEFF51D4A980CC554EF3E84619F3 /* CHIPageControlPaprika.swift in Sources */,
+				66572A16E262848ACD58968F0B23CFF0 /* CHIPageControlPuya.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5038DCD32BA8D19AE87ED86D52358DA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MDFInternationalization;
+			target = 55A01F8E987A6E2F7F0ED141A1ECA406 /* MDFInternationalization */;
+			targetProxy = B35F8765F9603416B6A8117C55E721DC /* PBXContainerItemProxy */;
+		};
+		555E79CB2233AFDA651AA42271AAEC4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MDFInternationalization;
+			target = 55A01F8E987A6E2F7F0ED141A1ECA406 /* MDFInternationalization */;
+			targetProxy = 11C2B87A32FCF3EBE908EC33EAEF5063 /* PBXContainerItemProxy */;
+		};
+		7C0E6499BA666320DC7D5594791165F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MaterialComponents;
+			target = B4723B5744013DF08BE3A5FEAA286944 /* MaterialComponents */;
+			targetProxy = 1FB83D398C80824949E7CC9788387F1F /* PBXContainerItemProxy */;
+		};
+		9E447E527FA505DBE6D0C47135C323CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CHIPageControl;
+			target = 58A7AC722D45BA5EF49F00D98C86978B /* CHIPageControl */;
+			targetProxy = 984A66F1977B7B7E2D0F4D1C2AB0A9B6 /* PBXContainerItemProxy */;
+		};
+		FE7EF6C636EA040ED3D5E1E2EE4754D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MOLH;
+			target = 13E17D11090C69C55E1CC5C52E359A6A /* MOLH */;
+			targetProxy = 72BE430922B5576136FC829CC6DBBDF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		082649ABF65D30C0B8732BDDADE9DC4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CD6A7C9181D49E5326B75CE379CB19C /* MDFInternationalization.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MDFInternationalization/MDFInternationalization-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MDFInternationalization/MDFInternationalization-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MDFInternationalization/MDFInternationalization.modulemap";
+				PRODUCT_MODULE_NAME = MDFInternationalization;
+				PRODUCT_NAME = MDFInternationalization;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1A6A8D26314258729A3366A3CBEEB41A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB6FD1694A48C6AF1EE89207347D49F7 /* MaterialComponents.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MaterialComponents/MaterialComponents-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MaterialComponents/MaterialComponents-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MaterialComponents/MaterialComponents.modulemap";
+				PRODUCT_MODULE_NAME = MaterialComponents;
+				PRODUCT_NAME = MaterialComponents;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1CC775AA65A6C9B68830F9186719C751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8A60A194D7725DC1D6C7095263C90D4 /* MaterialComponents.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MaterialComponents/MaterialComponents-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MaterialComponents/MaterialComponents-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MaterialComponents/MaterialComponents.modulemap";
+				PRODUCT_MODULE_NAME = MaterialComponents;
+				PRODUCT_NAME = MaterialComponents;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D568990C76F9E9249BC1230D798E435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33AE78493F996FE3C201FDEF77DCF578 /* CHIPageControl.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CHIPageControl/CHIPageControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CHIPageControl/CHIPageControl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CHIPageControl/CHIPageControl.modulemap";
+				PRODUCT_MODULE_NAME = CHIPageControl;
+				PRODUCT_NAME = CHIPageControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4EA1C47EA1053331DBCA33FF4B9D3A0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60291EC2A6D4F833083CE9B12005422A /* MDFInternationalization.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MDFInternationalization/MDFInternationalization-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MDFInternationalization/MDFInternationalization-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MDFInternationalization/MDFInternationalization.modulemap";
+				PRODUCT_MODULE_NAME = MDFInternationalization;
+				PRODUCT_NAME = MDFInternationalization;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59D016BFDC1B15144DAAA04DDEFD9E8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4865A9C010C49033B3703B4F3FC9AAE1 /* MOLH.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MOLH/MOLH-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MOLH/MOLH-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MOLH/MOLH.modulemap";
+				PRODUCT_MODULE_NAME = MOLH;
+				PRODUCT_NAME = MOLH;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		85145497A5CE70B4478A59A235B70CFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 603983B896F195E7BF88E1B8422DCA9E /* Pods-Shwimah.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Shwimah/Pods-Shwimah-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Shwimah/Pods-Shwimah.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A375B6EA69164680DF1542095EC2D090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE13C94C8A7E80DCBDABE242502F9336 /* CHIPageControl.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CHIPageControl/CHIPageControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CHIPageControl/CHIPageControl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CHIPageControl/CHIPageControl.modulemap";
+				PRODUCT_MODULE_NAME = CHIPageControl;
+				PRODUCT_NAME = CHIPageControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BB99BC9F00714AF041CF037D504E21B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A20F59C0DDE80E063C766F44A88321C /* Pods-Shwimah.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Shwimah/Pods-Shwimah-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Shwimah/Pods-Shwimah.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D6738B4C86A8870BB2127E267E71E14D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 430F4A01304B08C66DFF3BC256FD7507 /* MOLH.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MOLH/MOLH-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MOLH/MOLH-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MOLH/MOLH.modulemap";
+				PRODUCT_MODULE_NAME = MOLH;
+				PRODUCT_NAME = MOLH;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1600C207C7D76BE3C3F71C5B46884F07 /* Build configuration list for PBXNativeTarget "CHIPageControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D568990C76F9E9249BC1230D798E435 /* Debug */,
+				A375B6EA69164680DF1542095EC2D090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29235CC975477CF0AE111D8533A857C9 /* Build configuration list for PBXNativeTarget "MDFInternationalization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EA1C47EA1053331DBCA33FF4B9D3A0D /* Debug */,
+				082649ABF65D30C0B8732BDDADE9DC4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45860E2466B7AFB39989271B998BE492 /* Build configuration list for PBXNativeTarget "MOLH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59D016BFDC1B15144DAAA04DDEFD9E8F /* Debug */,
+				D6738B4C86A8870BB2127E267E71E14D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */,
+				C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68E13C81D6E505451CEE7DB4674BE5F1 /* Build configuration list for PBXNativeTarget "MaterialComponents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC775AA65A6C9B68830F9186719C751 /* Debug */,
+				1A6A8D26314258729A3366A3CBEEB41A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B619EFD99B0CFE0507C9F99335D57CFD /* Build configuration list for PBXNativeTarget "Pods-Shwimah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB99BC9F00714AF041CF037D504E21B4 /* Debug */,
+				85145497A5CE70B4478A59A235B70CFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

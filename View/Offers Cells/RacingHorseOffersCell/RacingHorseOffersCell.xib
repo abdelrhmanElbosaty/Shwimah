@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cairo-Regular.ttf">
+            <string>Cairo-Regular</string>
+        </array>
+        <array key="Cairo-SemiBold.ttf">
+            <string>Cairo-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="95" id="KGk-i7-Jjw" customClass="RacingHorseOffersCell" customModule="Shwimah" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="412" height="95"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="412" height="95"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ETs-u3-Iix">
+                        <rect key="frame" x="5" y="5" width="402" height="85"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hourseProfile" translatesAutoresizingMaskIntoConstraints="NO" id="Z5x-Qs-sdK">
+                                <rect key="frame" x="5" y="22.5" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="f4u-90-tFz"/>
+                                    <constraint firstAttribute="width" constant="40" id="irN-Rm-OFh"/>
+                                    <constraint firstAttribute="width" secondItem="Z5x-Qs-sdK" secondAttribute="height" multiplier="1:1" id="qb6-Lk-Q4K"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Mu9-Jk-54k">
+                                <rect key="frame" x="55" y="14.5" width="194.5" height="56.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="مناف الخالدية" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="94" translatesAutoresizingMaskIntoConstraints="NO" id="a8r-Pe-L5P">
+                                        <rect key="frame" x="0.0" y="0.0" width="92.5" height="30"/>
+                                        <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="16"/>
+                                        <color key="textColor" red="0.0" green="0.49803921579999999" blue="0.62745100259999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="fUV-r3-iTS">
+                                        <rect key="frame" x="0.0" y="30" width="194.5" height="26.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mZL-J3-voB">
+                                                <rect key="frame" x="0.0" y="0.0" width="44" height="26.5"/>
+                                                <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="14"/>
+                                                <color key="textColor" red="0.64705884459999996" green="0.64705884459999996" blue="0.64705884459999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="tqV-jK-PEB">
+                                                <rect key="frame" x="49" y="0.0" width="145.5" height="26.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6578" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xPS-a7-mPK">
+                                                        <rect key="frame" x="0.0" y="0.0" width="32" height="26.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <color key="textColor" red="0.0" green="0.49803921579999999" blue="0.62745100259999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="السيد/ زين الدين زيدان" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EHh-JZ-SKD">
+                                                        <rect key="frame" x="36" y="0.0" width="109.5" height="26.5"/>
+                                                        <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="12"/>
+                                                        <color key="textColor" red="0.0" green="0.49803921579999999" blue="0.62745100259999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0t1-B1-FPh">
+                                <rect key="frame" x="371.5" y="28.5" width="20.5" height="28.5"/>
+                                <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="15"/>
+                                <color key="textColor" red="0.58081901069999997" green="0.088427625600000004" blue="0.31863921880000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Z5x-Qs-sdK" firstAttribute="centerY" secondItem="ETs-u3-Iix" secondAttribute="centerY" id="8ft-bc-5PN"/>
+                            <constraint firstItem="Mu9-Jk-54k" firstAttribute="centerY" secondItem="ETs-u3-Iix" secondAttribute="centerY" id="HYc-Ir-VhU"/>
+                            <constraint firstAttribute="trailing" secondItem="0t1-B1-FPh" secondAttribute="trailing" constant="10" id="IrP-FW-SZu"/>
+                            <constraint firstItem="Mu9-Jk-54k" firstAttribute="centerY" secondItem="ETs-u3-Iix" secondAttribute="centerY" id="iXD-BY-eEl"/>
+                            <constraint firstItem="0t1-B1-FPh" firstAttribute="centerY" secondItem="ETs-u3-Iix" secondAttribute="centerY" id="mPY-hv-46k"/>
+                            <constraint firstItem="Mu9-Jk-54k" firstAttribute="leading" secondItem="Z5x-Qs-sdK" secondAttribute="trailing" constant="10" id="vbL-lh-Tme"/>
+                            <constraint firstItem="Z5x-Qs-sdK" firstAttribute="leading" secondItem="ETs-u3-Iix" secondAttribute="leading" constant="5" id="vho-xc-Vtd"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ETs-u3-Iix" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="0af-a6-iKi"/>
+                    <constraint firstAttribute="bottom" secondItem="ETs-u3-Iix" secondAttribute="bottom" constant="5" id="3UR-Og-gfM"/>
+                    <constraint firstAttribute="trailing" secondItem="ETs-u3-Iix" secondAttribute="trailing" constant="5" id="dSz-7v-Len"/>
+                    <constraint firstItem="ETs-u3-Iix" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="x3u-Un-0s0"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="containerViewOutlet" destination="ETs-u3-Iix" id="JIY-JO-6fW"/>
+                <outlet property="horseNameLBL" destination="a8r-Pe-L5P" id="B5X-ev-7vG"/>
+                <outlet property="horseOwner" destination="EHh-JZ-SKD" id="Vcn-M1-Hrg"/>
+                <outlet property="imageOutlet" destination="Z5x-Qs-sdK" id="Obk-Wk-L9q"/>
+                <outlet property="ownerPhone" destination="xPS-a7-mPK" id="VVE-eL-cCS"/>
+                <outlet property="phoneLbl" destination="mZL-J3-voB" id="gW3-3Q-bFv"/>
+                <outlet property="priceOutlet" destination="0t1-B1-FPh" id="oVb-ln-PCY"/>
+            </connections>
+            <point key="canvasLocation" x="89.855072463768124" y="90.066964285714278"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="hourseProfile" width="393" height="266"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
